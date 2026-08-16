@@ -1,0 +1,9 @@
+{{#each this}}
+  <li id="bookmarkItem">
+    <a id="bookmarks-link" href="{{this}}">{{this}}</a>
+    <div id="bookmarks-buttons">
+      <button id="bookmarks-edit" data-index="{{@index}}">Редагувати</button>
+      <button id="bookmarks-delete" data-index="{{@index}}">Видалити</button>
+    </div>
+  </li>
+{{/each}}

@@ -1,0 +1,30 @@
+{
+  "name": "home-work---8",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofiamat/home-work---8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sofiamat/home-work---8/issues"
+  },
+  "homepage": "https://github.com/sofiamat/home-work---8#readme",
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.16.4",
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.9"
+  }
+}

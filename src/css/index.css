@@ -1,0 +1,134 @@
+/* task 1 */
+
+#bookmarkApp,
+#formApp {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(246, 252, 245);
+  padding: 15px;
+  border-radius: 100px;
+}
+
+#bookmarkInput {
+  border-radius: 15px;
+  border: 1px solid black;
+  width: 350px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: rgba(198, 237, 198, 0.402);
+  transition: 0.3s ease;
+}
+
+#bookmarkInput:hover,
+#bookmarkInput:focus {
+  background-color: rgba(149, 180, 149, 0.402);
+}
+
+#addBookmarkBtn {
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 10px;
+  transition: 0.3s ease;
+  background-color: rgba(103, 218, 103, 0.402);
+}
+
+#addBookmarkBtn:hover {
+  background-color: rgba(123, 154, 123, 0.402);
+}
+
+#bookmarks-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bookmarks-link {
+  text-decoration: underline;
+  color: rgb(7, 107, 7);
+  margin-left: 7px;
+}
+
+#bookmarkItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(237, 244, 235);
+  width: 550px;
+  border-radius: 25px;
+  padding: 7px;
+  margin: 5px 0;
+}
+
+#bookmarks-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+#bookmarks-edit {
+  background-color: rgba(137, 242, 137, 0.756);
+  transition: 0.3 ease-in;
+}
+
+#bookmarks-edit:hover {
+  background-color: rgba(108, 212, 108, 0.756);
+}
+
+#bookmarks-delete {
+  background-color: rgba(242, 137, 137, 0.756);
+  transition: 0.3 ease-in;
+}
+
+#bookmarks-delete:hover {
+  background-color: rgba(212, 108, 108, 0.756);
+}
+
+#bookmarks-edit,
+#bookmarks-delete {
+  padding: 7px;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+/* task 2 ==============================*/
+
+#formApp {
+  background-color: rgb(245, 245, 252);
+}
+
+#formTitle {
+  margin: 0 auto;
+  width: 100;
+}
+
+#password,
+#username {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(12, 18, 53, 0.721);
+  margin: 10px 0;
+  width: 400px;
+  background-color: rgba(232, 230, 249, 0.546);
+  transition: 0.3s ease;
+}
+
+#password:hover,
+#password:focus,
+#username:hover,
+#username:focus {
+  background-color: rgba(204, 200, 242, 0.749);
+  border: 1px solid rgba(0, 0, 0, 0.721);
+}
+
+#saveBtn {
+  padding: 10px 20px;
+  background-color: rgba(155, 146, 235, 0.749);
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+#saveBtn:hover {
+  background-color: rgba(89, 80, 171, 0.749);
+}
